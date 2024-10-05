@@ -1,0 +1,96 @@
+[
+  {
+    "id": 1,
+    "category": {
+      "id": 1,
+      "name": "Dog"
+    },
+    "name": "Buddy",
+    "photoUrls": [
+      "https://example.com/photos/buddy.jpg"
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "Golden Retriever"
+      }
+    ],
+    "status": "available"
+  },
+
+  {
+  "id": 2,
+  "category": {
+  "id": 2,
+  "name": "Cat"
+  },
+  "name": "Whiskers",
+  "photoUrls": [
+  "https://example.com/photos/whiskers.jpg"
+  ],
+  "tags": [
+  {
+  "id": 2,
+  "name": "Persian"
+  }
+  ],
+  "status": "available"
+  },
+
+  {
+  "id": 3,
+  "category": {
+  "id": 3,
+  "name": "Bird"
+  },
+  "name": "Polly",
+  "photoUrls": [
+  "https://example.com/photos/polly.jpg"
+  ],
+  "tags": [
+  {
+  "id": 3,
+  "name": "Parrot"
+  }
+  ],
+  "status": "available"
+  },
+
+  {
+  "id": 4,
+  "category": {
+  "id": 1,
+  "name": "Dog"
+  },
+  "name": "Max",
+  "photoUrls": [
+  "https://example.com/photos/max.jpg"
+  ],
+  "tags": [
+  {
+  "id": 4,
+  "name": "Siberian Husky"
+  }
+  ],
+  "status": "available"
+  },
+
+  {
+  "id": 5,
+  "category": {
+  "id": 2,
+  "name": "Cat"
+  },
+  "name": "Luna",
+  "photoUrls": [
+  "https://example.com/photos/luna.jpg"
+  ],
+  "tags": [
+  {
+  "id": 5,
+  "name": "Siamese"
+  }
+  ],
+  "status": "available"
+  }
+]

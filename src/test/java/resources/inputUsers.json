@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "username": "johndoe",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "johndoe@example.com",
+    "password": "password123",
+    "phone": "555-1234",
+    "userStatus": 1
+  },
+
+  {
+    "id": 2,
+    "username": "janedoe",
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "email": "janedoe@example.com",
+    "password": "securepass",
+    "phone": "555-5678",
+    "userStatus": 1
+  },
+
+  {
+    "id": 3,
+    "username": "mikejohnson",
+    "firstName": "Mike",
+    "lastName": "Johnson",
+    "email": "mikejohnson@example.com",
+    "password": "mypassword",
+    "phone": "555-8765",
+    "userStatus": 0
+  },
+
+  {
+    "id": 4,
+    "username": "emilybrown",
+    "firstName": "Emily",
+    "lastName": "Brown",
+    "email": "emilybrown@example.com",
+    "password": "emilypass",
+    "phone": "555-4321",
+    "userStatus": 1
+  },
+
+  {
+    "id": 5,
+    "username": "charlessmith",
+    "firstName": "Charles",
+    "lastName": "Smith",
+    "email": "charlessmith@example.com",
+    "password": "charlie123",
+    "phone": "555-9876",
+    "userStatus": 0
+  }
+]
