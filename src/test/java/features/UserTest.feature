@@ -57,7 +57,7 @@ Feature: This feature includes test scenarios for User endpoint in SwaggerUI exa
 
   Scenario: Logging in a user session
     * def usersArray = read('classpath:resources/inputUsers.json')
-    * karate.call('../callables/opsForUser.feature@login', {username: usersArray[0].username, password: usersArray[0].password, expectedStatus: 200})
+    * karate.call('../callables/opsForUser.feature@login',{username: usersArray[0].username, password: usersArray[0].password, expectedStatus: 200})
 
   Scenario: Logging out from a user session
     * karate.call('../callables/opsForUser.feature@logout', {expectedStatus: 200})

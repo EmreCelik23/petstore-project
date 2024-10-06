@@ -14,7 +14,7 @@ Feature: This feature file includes test cases for Pet endpoint in SwaggerUI exa
     "id": 0,
     "name": "string"
   },
-  "name": "Mert Hakan Yandas",
+  "name": "Duman",
   "photoUrls": [
     "string"
   ],
@@ -40,7 +40,7 @@ Feature: This feature file includes test cases for Pet endpoint in SwaggerUI exa
     Then print "\n\nResponse: \n\n", response
     And status 200
     And match response.id == 20
-    And match response.name == "Mert Hakan Yandas"
+    And match response.name == "Duman"
 
   Scenario: Trying to get a pet without a valid ID
     Given path 1010101
@@ -73,7 +73,7 @@ Feature: This feature file includes test cases for Pet endpoint in SwaggerUI exa
           "id": 0,
           "name": "string"
         },
-        "name": "MHY",
+        "name": "Buddy",
         "photoUrls": [
           "string"
         ],
@@ -90,7 +90,7 @@ Feature: This feature file includes test cases for Pet endpoint in SwaggerUI exa
       When method PUT
       Then status 200
       And match response.id == 20
-      And match response.name == "MHY"
+      And match response.name == "Buddy"
       * print "\n\nResponse: \n\n", response
 
 
